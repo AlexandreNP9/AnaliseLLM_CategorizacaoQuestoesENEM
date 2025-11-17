@@ -1,10 +1,39 @@
-# AnaliseLLM_CategorizacaoQuestoesENEM
-Integração de API do Gemini para análise da matriz de referência do ENEM, enunciado da questão com gabarito, para apontamento das habilidades, competências e conteúdos envolvidos.
-
-
 Este é o passo 3 de uma sequência de tratamentos até o produto final:  
 Passo 1: conversão do .pdf da prova do ENEM para .png e tratamento  
 Passo 2: extração do conteúdo utilizando OCR
 ==> PASSO 3 (ESTE REPOSITÓRIO): Análise de LLM das questões  
 Passo 4: Interface de cadastro das questões para consulta
+
+
+
+# ENEM_CategorizacaoQuestoes_AnaliseLLM
+Projeto para categorização das questões do ENEM de acordo com os descritores e habilidades previstas na matriz de referência do exame.  
+Este repositório faz parte de um projeto com subsistemas distribuído.  
+
+Repositório Geral:  
+https://github.com/AlexandreNP9/ENEM_CategorizacaoQuestoes_GERAL
+
+# Objetivos deste repositório
+Envio do enunciado e gabarito para uma LLM  
+Identificar o conteúdo principal, habilidade associada, metadados e justificativas das altertanivas
+
+
+# Especifidades técnicas
+## Programas e bibliotecas
+Linux Mint 22.1  
+Python 3  
+
+# Antes de executar o código
+Espera-se que já tenha o python3 instalado
+
+## Criar variável de ambiente (caso necessário)
+```
+python3 -m venv venv  
+source venv/bin/activate  
+```
+
+## Para instalar o __________
+```
+pip3 install 
+```
 
