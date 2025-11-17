@@ -1,11 +1,3 @@
-Este é o passo 3 de uma sequência de tratamentos até o produto final:  
-Passo 1: conversão do .pdf da prova do ENEM para .png e tratamento  
-Passo 2: extração do conteúdo utilizando OCR
-==> PASSO 3 (ESTE REPOSITÓRIO): Análise de LLM das questões  
-Passo 4: Interface de cadastro das questões para consulta
-
-
-
 # ENEM_CategorizacaoQuestoes_AnaliseLLM
 Projeto para categorização das questões do ENEM de acordo com os descritores e habilidades previstas na matriz de referência do exame.  
 Este repositório faz parte de um projeto com subsistemas distribuído.  
